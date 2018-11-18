@@ -1,0 +1,13 @@
+.invisible{
+  visibility: hidden;
+}
+.text{
+  font-family: "Tahoma";
+  font-size: 1.1em;
+}
+.center1{
+  text-align: center;
+}
+.error{
+  color:#ff0000;
+}

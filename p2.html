@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+lang="en">
+<head>
+  <script type="text/javascript" src="scripts/p2.js"> </script>
+  <title>"User creation form"</title>
+  <link type="text/css" href="styles/p2.css" rel="stylesheet"/>
+  </head>
+  <body>
+  <div class="text" id="fields">
+    <fieldset>
+    <form  action="php.php" method="post" onsubmit="return validation();">
+      <label>First name:
+      <input type="text" name="firstname" id="fname"/><br/><br/></label>
+      <label>LastName:
+      <input type="text" name="lastname" id="lname"/><br/><br/></label>
+      <label>Username:
+      <input type=" text" name="username" id="uname"/><br/><br/></label>
+      <label>Email:
+      <input type="text" name="email" id="email"/><br/><br/></label>
+      <label>Certification Number:
+      <input type="text" name="certificationnumber" id= "certifnum"/><br/><br/></label>
+      <label>Admin User <input type="checkbox"/><br/><br/></label>
+      <label>Password:
+      <input type="password" name="password"  id="pass"/> <br/><br/></label>
+      <label>Password Confirmation:
+      <input type="password" name="passwordconfirmation" id="passconfirm"/><br/><br/></label>
+      <label><input class="invisible" type="text" name=" hidden" value="c7fafc6d1d3ec4671a3beb6423d69090"/><br/></label>
+      <label><input type="submit" name="Submit" value="SUBMIT"/></label>
+    </form>
+  </fieldset>
+  </div>
+  </body>
+</html>
